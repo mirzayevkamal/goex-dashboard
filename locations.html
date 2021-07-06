@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://goex.az/public/site/css/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://goex.az/public/site/css/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://goex.az/public/site/css/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://goex.az/public/site/css/owl.theme.default.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top-wrapper">
+        <div class="container">
+          <div class="header-top">
+            <div class="d-flex">
+              <div class="header-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="header-links">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="./about.html">Haqqımızda</a></li>
+                <li><a href="./tariffs.html">Xidmətlər</a></li>
+              </ul>
+            </div>
+            <div class="header-contact">
+              <a href="tel:0709001100">
+                <i class="fal fa-phone"></i>
+                (994) 70 900-11-00
+              </a>
+              <div class="dropdown header-lang">
+                <button
+                  class="goBtn btn-lang"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AZ <i style="color: #fff" class="fa fa-chevron-down"></i>
+                </button>
+                <ul
+                  style="z-index: 9999999999999"
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">TR</a></li>
+                  <li><a class="dropdown-item" href="#">RU</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-main-wrapper">
+        <div class="header-main">
+          <div class="header-logo">
+            <a href="./index.html">
+              <img
+                src="https://goex.az/public/site/image/logo.png"
+                alt="Site logo"
+              />
+            </a>
+          </div>
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="./services.html">Xidmətlər</a>
+              </li>
+              <li>
+                <a href="./shops.html">Mağazalar</a>
+              </li>
+              <li>
+                <a href="./tariffs.html">Tariflər</a>
+              </li>
+              <li>
+                <a href="./news.html">Xəbərlər</a>
+              </li>
+              <li>
+                <a href="./about.html">Haqqımızda</a>
+              </li>
+              <li>
+                <a href="./contact.html">Əlaqə</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-top-btns">
+            <div class="profile-buttons">
+              <a href="./index.html" class="goBtn btn-login">
+                <i class="fad fa-user"></i> Ad Soyad</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main container -->
+    <div class="container-goex pt-5">
+      <!-- Profile wrapper grid -->
+      <div class="profile-wrapper">
+        <!-- Mobile-sidebar(menu for user) -->
+        <div class="mobile-sidebar">
+          <div class="dropdown">
+            <button
+              class="btn w-100 goex-mobile-btn dropdown-toggle"
+              type="button"
+              id="goex-sidebar"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i style="margin-right: 5px" class="fad fa-user"></i> Ad Soyad
+              (ID: G677658)
+            </button>
+            <ul
+              class="dropdown-menu w-100 shadow-lg"
+              aria-labelledby="goex-sidebar"
+            >
+              <li>
+                <a class="active" href="#"
+                  ><i class="fa fa-store"></i>Sifarişlərim</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fad fa-box"></i> Bağlamalarım</a>
+              </li>
+              <li>
+                <a href="#"><i class="fad fa-id-card-alt"></i> Etibarnamələr</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fad fa-credit-card-front"></i> Ödənişlər</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fad fa-wallet"></i> Balansım</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-minus-hexagon"></i>Borclar</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fad fa-file-signature"></i>Müraciətlərim</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fad fa-sync"></i>Referallar</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-person-carry"></i> Kuryer xidməti</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fad fa-clipboard-list"></i> Kuryer sifarişlərim</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fad fa-user"></i> Şəxsi məlumatlarım</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-sign-out-alt"></i> Çıxış</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sidebar wrapper desktop -->
+        <div class="sidebar-wrapper shadow">
+          <div class="user-id">
+            <i class="fad fa-id-card-alt"></i>
+            <h5>Ad Soyad</h5>
+            <h6>ID: G677658</h6>
+          </div>
+          <ul>
+            <li>
+              <a href="./index.html"><i class="fa fa-store"></i>Sifarişlərim</a>
+            </li>
+            <li>
+              <a class="active" href="./locations.html"
+                ><i class="fad fa-map-marked-alt"></i> Ünvanlarım</a
+              >
+            </li>
+            <li>
+              <a href="./packages.html"
+                ><i class="fad fa-box"></i> Bağlamalarım</a
+              >
+            </li>
+            <li>
+              <a href="./friends.html"
+                ><i class="fad fa-id-card-alt"></i> Etibarnamələr</a
+              >
+            </li>
+            <li>
+              <a href="./payments.html"
+                ><i class="fad fa-credit-card-front"></i> Ödənişlər</a
+              >
+            </li>
+            <li>
+              <a href="./balance.html"
+                ><i class="fad fa-wallet"></i> Balansım</a
+              >
+            </li>
+            <li>
+              <a href="./debts.html"
+                ><i class="fas fa-minus-hexagon"></i>Borclar</a
+              >
+            </li>
+            <li>
+              <a href="./appeals.html"
+                ><i class="fad fa-file-signature"></i>Müraciətlərim</a
+              >
+            </li>
+            <li>
+              <a href="./referrals.html"
+                ><i class="fad fa-sync"></i>Referallar</a
+              >
+            </li>
+            <li>
+              <a href="./couriers.html"
+                ><i class="fas fa-person-carry"></i> Kuryer xidməti</a
+              >
+            </li>
+            <li>
+              <a href="./courier-orders.html"
+                ><i class="fad fa-clipboard-list"></i> Kuryer sifarişlərim</a
+              >
+            </li>
+            <li>
+              <a href="./profile.html"
+                ><i class="fad fa-user"></i> Şəxsi məlumatlarım</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-sign-out-alt"></i> Çıxış</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Main contents wrapper -->
+        <div class="main-bar">
+          <!-- User balance boxes -->
+          <div class="user-boxes-wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 col-6 p-lg-1 my-1 my-lg-0"
+                >
+                  <div class="user-box shadow-sm">
+                    <div class="box-info">
+                      <div class="box-headline">Daşınma balansı</div>
+                      <div class="box-text">$ 500.00</div>
+                    </div>
+                    <div class="box-icon gr-blue">
+                      <i class="fad fa-wallet"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 col-6 p-lg-1 my-1 my-lg-0"
+                >
+                  <div class="user-box shadow-sm">
+                    <div class="box-info">
+                      <div class="box-headline">Sifariş balansı</div>
+                      <div class="box-text">$ 500.00</div>
+                    </div>
+                    <div class="box-icon gr-yellow">
+                      <i class="fas fa-usd-circle"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 col-6 p-lg-1 my-1 my-lg-0"
+                >
+                  <div class="user-box shadow-sm">
+                    <div class="box-info">
+                      <div class="box-headline">Limit</div>
+                      <div class="box-text">$ 500.00</div>
+                    </div>
+                    <div class="box-icon gr-green">
+                      <i class="fas fa-hourglass-start"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 col-6 p-lg-1 my-1 my-lg-0"
+                >
+                  <div class="user-box shadow-sm">
+                    <div class="box-info">
+                      <div class="box-headline">Bağlama sayı</div>
+                      <div class="box-text">$ 500.00</div>
+                    </div>
+                    <div class="box-icon gr-red">
+                      <i class="fad fa-box-open"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-card shadow-sm">
+            <!-- Main content goes here -->
+            <div class="user-locations">
+              <div class="container-fluid">
+                <div class="row mt-4">
+                  <div class="col-12">
+                    <ul class="c-flags mb-4">
+                      <li>
+                        <a class="active" href="#">
+                          <img
+                            src="https://cdn.countryflags.com/thumbs/turkey/flag-round-250.png"
+                            width="30px"
+                            alt=""
+                          />
+                          Türkiyə</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img
+                            src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png"
+                            width="30px"
+                            alt=""
+                          />
+                          Amerika</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Adınız:</span>
+                      <p>Ad Soyad</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Telefon:</span>
+                      <p>(905) 45 471-43-71</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Index:</span>
+                      <p>746356</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Küçə:</span>
+                      <p>Haydar Aliyev 45</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Rayon:</span>
+                      <p>Bahçeli evler</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Ölkə:</span>
+                      <p>Türkiyə</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Şəhər:</span>
+                      <p>İstanbul</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>FİN:</span>
+                      <p>99674408434</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Semt:</span>
+                      <p>Yenibosna</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Qəbul edən:</span>
+                      <p>GOEX</p>
+                      <span class="copy">
+                        <i class="fad fa-copy"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <div class="location-detail">
+                      <span>Ünvan:</span>
+                      <p>
+                        Alibeyköy Mah. Atatürk C
+                        <span class="copy"> <i class="fad fa-copy"></i> </span
+                        >d.Yevlax No:135 G684413
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-bottom-menu">
+      <div class="mobile-bottom-menu-items">
+        <a href="./index.html" class="bottom-menu-item">
+          <i class="fad fa-user"></i>
+          <p>Profil</p>
+        </a>
+        <a href="./register.html" class="bottom-menu-item">
+          <i class="fad fa-box"></i>
+          <p>Bağlamalar</p>
+        </a>
+        <a href="./contact.html" class="bottom-menu-item">
+          <i class="fad fa-paperclip"></i>
+          <p>Bəyan et</p>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+            <div class="footer-logo">
+              <a href="#">
+                <img
+                  src="https://goex.az/public/site/image/logo-white.png"
+                  alt="Site logo"
+                />
+              </a>
+            </div>
+            <div class="footer-social">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-contact">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-map-marker-smile"></i>
+                    Əhməd Rəcəbli küçəsi 4/6, Nərimanov metrosunun yanı AZ 1015
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fal fa-envelope"></i>
+                    info@goex.az
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:0709001100">
+                    <i class="fal fa-phone"></i>
+                    (994) 70 900-11-00
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="footer-menu">
+              <h5>Menu</h5>
+              <ul>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="footer-help">
+              <h5>Kömək</h5>
+              <ul>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+                <li>
+                  <a href="./about.html">Haqqımızda</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-end">
+        <div class="text-center">&#169; Copyright 2021</div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://goex.az/public/site/js/jquery.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
